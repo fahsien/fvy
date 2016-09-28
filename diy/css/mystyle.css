@@ -50,7 +50,7 @@ background: #428bca;
 
 #about-background{
 	background-color: #000;
-	background-image: url(../img/black.png);
+  background-image: url(../img/black_small.png);
 	color:white;
 	background-repeat: no-repeat; 
 	background-size: 100%; 
@@ -95,6 +95,7 @@ background: #428bca;
     font-size: 12px;
 	
 }
+
 @media(min-width:850px) {
 	.intro-btn{
 	width: 120px;
@@ -109,6 +110,10 @@ background: #428bca;
 		position: relative;
 		bottom: -20px;
 	}
+
+  #about-background{
+    background-image: url(../img/black.png);
+  }
 }
 
 .teacher-title{

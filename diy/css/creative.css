@@ -60,7 +60,7 @@ iframe{
 }
 .bg-primary {
 	background-color: rgba(20, 20, 20, 1);
-    background-image: url(../img/jobs.png);
+    background-image: url(../img/jobs_small.png);
 	background-repeat: no-repeat; 
 	background-size: 100%; 
 	
@@ -135,6 +135,9 @@ aside {
 }
 
 @media(min-width:768px) {
+    .bg-primary {
+        background-image: url(../img/jobs.png);
+    }
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
