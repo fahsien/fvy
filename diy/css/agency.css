@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/16-1-1-700x483.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
