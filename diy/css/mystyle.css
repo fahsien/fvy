@@ -28,7 +28,7 @@
 	background: #cecece;
 }
 .carousel-indicators .active {
-background: #428bca;
+background: #EEA9A9;
 }
 .item a:hover{
 	cursor: pointer;
@@ -191,7 +191,7 @@ background: #428bca;
   transform: scale(.5);
 }
 .circle:hover::after {
-  background: #5c5eae;
+  background: #EEA9A9;
   border-radius: 50%;
   -webkit-transform: scale(.9);
   transform: scale(.9);
