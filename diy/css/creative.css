@@ -126,7 +126,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #EEA9A9!important;
     background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 20px;
-        color: #f05f40;
+        color: #EEA9A9;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -187,7 +187,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #EEA9A9;
     }
 }
 
@@ -413,7 +413,7 @@ fieldset[disabled] .btn-default.active {
     border-color: #dbc33f;
     color: #fff;
 	opacity: 0.8;
-    background-color: #ee4b28;
+    background-color: #EEA9A9;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -427,7 +427,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #aaa;
+    background-color: #BDC0BA;
 }
 
 .btn-primary:active,
