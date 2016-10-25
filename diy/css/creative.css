@@ -61,10 +61,10 @@ iframe{
 }
 .bg-primary {
 	background-color: rgba(20, 20, 20, 1);
-    background-image: url(../img/jobs_small.png);
+    background-image: url(../img/jobs.png);
 	background-repeat: no-repeat; 
 	background-size: 100%; 
-	
+	font-size: 36px;
 }
 
 .bg-dark {
@@ -134,20 +134,29 @@ aside {
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
+.navbar-default .navbar-header .navbar-brand {
+        color: #fff;
+        font-size: 20px;
+    }
+.navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 20px;
+        color: #EEA9A9;
+    }
+.navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+.navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
 
 @media(min-width:768px) {
     .bg-primary {
         background-image: url(../img/jobs.png);
+        height: 450px;
     }
-    .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
-    }
-
-    .navbar-default .navbar-header .navbar-brand {
-        color: #fff;
-    }
-
+    
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         background-color:rgba(100,120,129,.5);
@@ -165,15 +174,8 @@ aside {
         color: #EEA9A9;
     }
 
-    .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
-        background-color: #fff;
-    }
+    
 
-    .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 20px;
-        color: #EEA9A9;
-    }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
