@@ -8,10 +8,11 @@ html,
 body {
     width: 100%;
     height: 100%;
+
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif,"微軟正黑體", "微软雅黑" ;
+    font-family: helvetica, xingothic-tc, 蘋果儷中黑, 微軟正黑體;
     overflow-x: hidden;
 }
 
@@ -60,13 +61,35 @@ iframe{
 	background-color:white;
 }
 .bg-primary {
-	background-color: rgba(20, 20, 20, 1);
-    background-image: url(../img/jobs.png);
-	background-repeat: no-repeat; 
-	background-size: 100%; 
-	font-size: 36px;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.bg-intro {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
+.about {
+    background-image: url(../img/jobs.png);
+}
+.intro{
+    background-image: url(../img/black_small.png);
+}
 .bg-dark {
     color: #dcdcdc;
     background-color: #3C2F41;
@@ -115,7 +138,6 @@ aside {
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 700;
     color: #222;
 }
 
@@ -153,8 +175,13 @@ aside {
 
 @media(min-width:768px) {
     .bg-primary {
-        background-image: url(../img/jobs.png);
-        height: 450px;
+        height: 70%;
+        
+    }
+    .bg-intro {
+        height: 50%;
+        background-image: url(../img/black.png);
+        
     }
     
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -192,7 +219,11 @@ aside {
         color: #EEA9A9;
     }
 }
-
+@font-face {
+  font-family: helvetica;
+  src: url('../fonts/helvetica.ttf');
+  
+}
 header {
     position: relative;
     width: 100%;
@@ -259,9 +290,7 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 20px;
     }
-	.bg-primary{
-		min-height: 346px;
-	}
+	
 	
 }
 
@@ -459,7 +488,9 @@ fieldset[disabled] .btn-primary.active {
     border-color: #f05f40;
     background-color: #f05f40;
 }
-
+.label-danger{
+    background-color: #EEA9A9; 
+}
 .btn-primary .badge {
     color: #f05f40;
     background-color: #fff;
